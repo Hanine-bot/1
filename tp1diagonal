@@ -1,0 +1,41 @@
+#include<stdio.h>
+int main (){
+int i,j;
+char mat[5][5];
+printf("donner les lettres ");
+for(i=0;i<5;i++){
+for(j=0;j<5;j++)
+scanf("%c",&mat[i][j]);
+}
+for(i=0;i<5;i++){
+for(j=0;j<5;j++)
+printf("%c",mat[i][j]);
+}
+for(i=0;i<5;i++){
+for(j=0;j<5;j++)
+}
+if(i==j)
+printf("%c",mat[i][j]);
+if(i+j==6)
+printf("%c",mat[i][j];)
+return 0;
+}
+#include<stdio.h>
+int main (){
+int i,j;
+char mat[5][5];
+printf("donner les lettres ");
+for(i=0;i<5;i++){
+for(j=0;j<5;j++)
+scanf("%c",&mat[i][j]);
+}
+for(i=0;i<5;i++){
+for(j=0;j<5;j++)
+printf("%c",mat[i][j]);
+}
+for(i=0;i<5;i++){
+if(i%2==0)
+for(j=0;j<5;j++)
+printf("%c",mat[i][j]);
+return 0;
+}
