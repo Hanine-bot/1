@@ -12,12 +12,11 @@ for(j=0;j<5;j++)
 printf("%c",mat[i][j]);
 }
 for(i=0;i<5;i++){
+if(i%2==0)
 for(j=0;j<5;j++)
-}
-if(i==j)
 printf("%c",mat[i][j]);
-if(i+j==6)
-printf("%c",mat[i][j];)
+for(i=1;i<=3;i++)
+printf("%c",mat[i][j]);
 return 0;
 }
 #include<stdio.h>
@@ -34,8 +33,11 @@ for(j=0;j<5;j++)
 printf("%c",mat[i][j]);
 }
 for(i=0;i<5;i++){
-if(i%2==0)
 for(j=0;j<5;j++)
+}
+if(i==j)
 printf("%c",mat[i][j]);
+if(i+j==6)
+printf("%c",mat[i][j];)
 return 0;
 }
